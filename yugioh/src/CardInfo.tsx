@@ -10,7 +10,7 @@ type YugiohInfo = {
 
 }
 const Card = ()=> {
-    [card, setCard] = useState ({} as YugiohInfo)
+    const [card, setCard] = useState ({} as YugiohInfo)
 }
 const CardInfo = () => {
   return (

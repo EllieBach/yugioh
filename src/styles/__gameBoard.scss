@@ -1,0 +1,43 @@
+/* __gameBoard.scss */
+.gameBoard {
+    display: flex;
+    flex-direction: column; /* Change the direction to stack items vertically */
+    justify-content: space-between; /* Aligns the redPlayer and bluePlayer */
+    height: 35rem;
+    width: 30rem;
+    border: black solid 1px;
+    background-color: lightcoral;
+  }
+  
+  .redPlayer,
+  .bluePlayer {
+    display: flex;
+  }
+  
+  .redPlayer .square,
+  .bluePlayer .square {
+    width: 2.5rem;
+    height: 5rem;
+    border: black solid 1px;
+  }
+  
+  .redFirstRow,
+  .redSecondRow,
+  .blueFirstRow,
+  .blueSecondRow {
+    display: flex;
+    justify-content: space-between; /* Aligns squares in the row */
+    padding: 0 2rem; /* Adds space on the sides */
+    width: 100%;
+  }
+  
+  .redFirstRow, .blueFirstRow{
+    margin-bottom: 1rem;
+  }
+  .redFirstRow{
+    margin-top: 2rem;
+  }
+  .blueSecondRow{
+    margin-bottom: 2rem;
+  }
+
